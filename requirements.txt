@@ -1,1 +1,1 @@
-subsettools @ git+https://github.com/hydroframe/subsettools.git
+subsettools @ git+https://github.com/hydroframe/subsettools.git@main
