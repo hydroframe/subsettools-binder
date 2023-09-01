@@ -1,1 +1,1 @@
-subsettools @ git+https://github.com/hydroframe/subsettools.git@main
+subsettools @ git+https://github.com/hydroframe/subsettools.git@check-public-repo
