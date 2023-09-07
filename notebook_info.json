@@ -1,0 +1,20 @@
+{
+  "Notebook1": {
+    "Title": "Subset CONUS and run ParFlow",
+    "BinderURL": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
+    "RawGithubContentURL": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb",
+    "Description": "Subsets data from the CONUS2 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model."
+  },
+  "Notebook2": {
+    "Title": "Subset CONUS and run ParFlow",
+    "BinderURL": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
+    "RawGithubContentURL": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb",
+    "Description": "This is the second notebook."
+  },
+  "Notebook3": {
+    "Title": "Subset CONUS and run ParFlow",
+    "BinderURL": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
+    "RawGithubContentURL": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb",
+    "Description": "This is the third notebook."
+  }
+}
