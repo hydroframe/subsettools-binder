@@ -1,2 +1,2 @@
-subsettools @ git+https://github.com/hydroframe/subsettools.git@check-public-repo
+subsettools @ git+https://github.com/hydroframe/subsettools.git@main
 matplotlib>=3.7.2
