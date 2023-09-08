@@ -1,0 +1,5 @@
+#!/bin/bash
+# avoid errors being silently ignored
+set -e
+git clone https://github.com/hydroframe/parflow_binder.git
+export PARFLOW_DIR=~/parflow_binder
