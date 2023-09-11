@@ -1,4 +1,8 @@
+#!/bin/bash
+
 export PARFLOW_DIR=~/parflow_binder
 export LD_LIBRARY_PATH=$PARFLOW_DIR/lib:$LD_LIBRARY_PATH
 export TCL_DIR=/srv/conda
 export LD_LIBRARY_PATH=$TCL_DIR/lib:$LD_LIBRARY_PATH
+
+exec "$@"
