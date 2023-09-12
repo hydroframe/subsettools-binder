@@ -4,5 +4,7 @@ export PARFLOW_DIR=~/parflow_binder
 export LD_LIBRARY_PATH=$PARFLOW_DIR/lib:$LD_LIBRARY_PATH
 export TCL_DIR=/srv/conda
 export LD_LIBRARY_PATH=$TCL_DIR/lib:$LD_LIBRARY_PATH
+export HYPRE_DIR=~/parflow_binder/hypre
+export LD_LIBRARY_PATH=$HYPRE_DIR/lib:$LD_LIBRARY_PATH
 
 exec "$@"
