@@ -1,2 +1,2 @@
-subsettools @ git+https://github.com/hydroframe/subsettools.git
+subsettools @ git+https://github.com/hydroframe/subsettools.git@check-hf-hydrodata
 matplotlib>=3.7.2
