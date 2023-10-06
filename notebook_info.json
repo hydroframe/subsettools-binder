@@ -1,20 +1,22 @@
 {
-  "Notebook1": {
-    "Title": "Subset CONUS and run ParFlow",
-    "BinderURL": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
-    "RawGithubContentURL": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb",
-    "Description": "Subsets data from the CONUS2 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model."
-  },
-  "Notebook2": {
-    "Title": "Subset CONUS and run ParFlow",
-    "BinderURL": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
-    "RawGithubContentURL": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb",
-    "Description": "This is the second notebook."
-  },
-  "Notebook3": {
-    "Title": "Subset CONUS and run ParFlow",
-    "BinderURL": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
-    "RawGithubContentURL": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb",
-    "Description": "This is the third notebook."
-  }
+    "notebooks" : [
+        {
+            "name" : "Subset CONUS and run ParFlow",
+            "description" : "Subsets data from the CONUS1 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
+            "execlink" : "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
+            "codelink" : "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb"
+        },
+        {
+            "name" : "Subset CONUS and do a ParFlow Spinup",
+            "description" : "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+            "execlink" : "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting_spinup.ipynb",
+            "codelink" : "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
+        },
+        {
+            "name" : "Subset CONUS and do a ParFlow Spinup",
+            "description" : "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+            "execlink" : "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting_spinup.ipynb",
+            "codelink" : "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
+        }        
+    ]
 }
