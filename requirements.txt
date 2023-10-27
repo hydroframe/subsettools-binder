@@ -1,2 +1,2 @@
 subsettools @ git+https://github.com/hydroframe/subsettools.git@parallelize-forcing
-matplotlib>=3.7.2
+matplotlib>=3.7.1
