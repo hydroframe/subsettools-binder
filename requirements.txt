@@ -1,2 +1,4 @@
 subsettools @ git+https://github.com/hydroframe/subsettools.git@0.3.0
 matplotlib>=3.7.2
+hf_hydrodata>=0.9.33
+bokeh>=3.3.0
