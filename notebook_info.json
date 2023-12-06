@@ -47,6 +47,12 @@
             "description": "Walk through how to filter point observations data to only sites within pre-defined networks such as GAGES-II or CAMELS.",
             "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_site_networks.ipynb",
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_site_networks.ipynb"
+        },
+        {
+            "name": "Save and wrangle point observations data",
+            "description": "Explore some basic features of pandas DataFrames.",
+            "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_pandas.ipynb",
+            "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_pandas.ipynb"
         }
     ]
 }
