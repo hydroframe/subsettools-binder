@@ -41,6 +41,12 @@
             "description": "Walk through of how to download a HUC boundary shapefile from the USGS and filter observations to only sites within that HUC.",
             "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_shapefile.ipynb",
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_shapefile.ipynb"
+        },
+        {
+            "name": "Filter sites by pre-defined site networks",
+            "description": "Walk through how to filter point observations data to only sites within pre-defined networks such as GAGES-II or CAMELS.",
+            "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_site_networks.ipynb",
+            "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_site_networks.ipynb"
         }
     ]
 }
