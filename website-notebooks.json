@@ -1,5 +1,6 @@
 [
     {
+        "section": "parflow_conus1",
         "category": "parflow_conus1",
         "title": "Parflow CONUS1.0",
         "list": [
@@ -24,14 +25,16 @@
         ]
     },
     {
+        "section": "parflow_conus2",
         "category": "parflow_conus2",
         "title": "Parflow CONUS2.0",
         "list": [
         ]
     },
     {
-        "category": "hf_hydrodata",
-        "title": "Hydrodata",
+        "section": "hf_hydrodata",
+        "category": "point_observations",
+        "title": "Point Observation Notebooks",
         "list": [
             {
                 "name": "Access and cite point observations data",
@@ -72,8 +75,9 @@
         ]
     },
     {
-        "category": "subsettools",
-        "title": "SubsetTools",
+        "section": "subsettools",
+        "category": "subset_tools_conus1",
+        "title": "SubsetTools Conus1 Notebooks",
         "list": [
             {
                 "name": "Subset CONUS and run ParFlow",
