@@ -1,0 +1,98 @@
+[
+    {
+        "category": "parflow_conus1",
+        "title": "Parflow CONUS1.0",
+        "list": [
+            {
+                "name": "Subset CONUS and run ParFlow",
+                "description": "Subsets data from the CONUS1 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb"
+            },
+            {
+                "name": "Subset CONUS and do a ParFlow Spinup",
+                "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting_spinup.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
+            },
+            {
+                "name": "Subset CONUS and do a ParFlow Spinup",
+                "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting_spinup.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
+            }
+        ]
+    },
+    {
+        "category": "parflow_conus2",
+        "title": "Parflow CONUS2.0",
+        "list": [
+        ]
+    },
+    {
+        "category": "hf_hydrodata",
+        "title": "Hydrodata",
+        "list": [
+            {
+                "name": "Access and cite point observations data",
+                "description": "Walk through some example functionality for accessing and citing point observations.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_get_data.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_get_data.ipynb"
+            },
+            {
+                "name": "Explore point data availability",
+                "description": "Walk through how to explore what data is available.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_explore_data.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_explore_data.ipynb"
+            },
+            {
+                "name": "Plotting returned point data",
+                "description": "Walk through some examples for how to plot data returned from get_point_data.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_plot_data.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_plot_data.ipynb"
+            },
+            {
+                "name": "Filter sites by USGS HUC boundaries",
+                "description": "Walk through of how to download a HUC boundary shapefile from the USGS and filter observations to only sites within that HUC.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_shapefile.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_shapefile.ipynb"
+            },
+            {
+                "name": "Filter sites by pre-defined site networks",
+                "description": "Walk through how to filter point observations data to only sites within pre-defined networks such as GAGES-II or CAMELS.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_site_networks.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_site_networks.ipynb"
+            },        
+            {
+                "name": "Save and wrangle point observations data",
+                "description": "Explore some basic features of pandas DataFrames.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_pandas.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_pandas.ipynb"
+            }
+        ]
+    },
+    {
+        "category": "subsettools",
+        "title": "SubsetTools",
+        "list": [
+            {
+                "name": "Subset CONUS and run ParFlow",
+                "description": "Subsets data from the CONUS1 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting.ipynb"
+            },
+            {
+                "name": "Subset CONUS and do a ParFlow Spinup",
+                "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting_spinup.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
+            },
+            {
+                "name": "Subset CONUS and do a ParFlow Spinup",
+                "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=conus1_subsetting_spinup.ipynb",
+                "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
+            }
+        ]
+    }
+]
