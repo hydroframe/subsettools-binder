@@ -19,28 +19,40 @@
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/conus1_subsetting_spinup.ipynb"
         },
         {
-            "name": "Accessing and citing point observations through hf_hydrodata.point",
+            "name": "Access and cite point observations data",
             "description": "Walk through some example functionality for accessing and citing point observations.",
             "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_get_data.ipynb",
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_get_data.ipynb"
         },
         {
-            "name": "Explore hf_hydrodata.point data availability",
-            "description": "Walk through how to explore what data is available through the hf_hydrodata.point module interface.",
+            "name": "Explore point data availability",
+            "description": "Walk through how to explore what data is available.",
             "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_explore_data.ipynb",
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_explore_data.ipynb"
         },
         {
-            "name": "Plotting output with hf_hydrodata.point",
-            "description": "Walk through some examples for how to plot data returned from hf_hydrodata.point.",
+            "name": "Plotting returned point data",
+            "description": "Walk through some examples for how to plot data returned from get_point_data.",
             "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_plot_data.ipynb",
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_plot_data.ipynb"
         },
         {
-            "name": "Filtering hf_hydrodata.point sites by a USGS HUC boundary shapefile",
+            "name": "Filter sites by USGS HUC boundaries",
             "description": "Walk through of how to download a HUC boundary shapefile from the USGS and filter observations to only sites within that HUC.",
             "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_shapefile.ipynb",
             "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_shapefile.ipynb"
+        },
+        {
+            "name": "Filter sites by pre-defined site networks",
+            "description": "Walk through how to filter point observations data to only sites within pre-defined networks such as GAGES-II or CAMELS.",
+            "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_site_networks.ipynb",
+            "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_site_networks.ipynb"
+        },
+        {
+            "name": "Save and wrangle point observations data",
+            "description": "Explore some basic features of pandas DataFrames.",
+            "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_pandas.ipynb",
+            "codelink": "https://raw.githubusercontent.com/hydroframe/subsettools-binder/main/hf_hydrodata/point/example_pandas.ipynb"
         }
     ]
 }
