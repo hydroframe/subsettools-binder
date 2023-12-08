@@ -5,13 +5,13 @@
         "title": "Parflow CONUS1.0",
         "list": [
             {
-                "name": "Subset CONUS and run ParFlow",
+                "name": "Subset CONUS1 and run ParFlow",
                 "description": "Subsets data from the CONUS1 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus1_subsetting_transient.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus1_subsetting_transient.ipynb"
             },
             {
-                "name": "Subset CONUS and do a ParFlow Spinup",
+                "name": "Subset CONUS1 and do a ParFlow Spinup",
                 "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus1_subsetting_spinup.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus1_subsetting_spinup.ipynb"
@@ -24,10 +24,10 @@
         "title": "Parflow CONUS2.0",
         "list": [
             {
-                "name": "Subset CONUS and do a ParFlow Spinup",
-                "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
-                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus1_subsetting_spinup.ipynb",
-                "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus1_subsetting_spinup.ipynb"
+                "name": "Subset CONUS2 and run ParFlow",
+                "description": "Subsets data from the CONUS2 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
+                "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus2_subsetting_transient.ipynb",
+                "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus2_subsetting_transient.ipynb.ipynb"
             }
         ]
     },
