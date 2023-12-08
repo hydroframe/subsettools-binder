@@ -77,7 +77,7 @@
     {
         "section": "subsettools",
         "category": "subset_tools_conus1",
-        "title": "Conus1 Subset Tools",
+        "title": "Conus1 SubsetTools",
         "list": [
             {
                 "name": "Define a subset domain area",
