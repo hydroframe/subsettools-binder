@@ -27,7 +27,7 @@
                 "name": "Subset CONUS2 and run ParFlow",
                 "description": "Subsets data from the CONUS2 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus2_subsetting_transient.ipynb",
-                "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus2_subsetting_transient.ipynb.ipynb"
+                "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus2_subsetting_transient.ipynb"
             }
         ]
     },
