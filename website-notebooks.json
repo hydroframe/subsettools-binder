@@ -2,17 +2,17 @@
     {
         "section": "parflow_conus1",
         "category": "parflow_conus1",
-        "title": "Parflow CONUS1.0",
+        "title": "ParFlow CONUS1.0",
         "list": [
             {
                 "name": "Subset CONUS1 and run ParFlow",
-                "description": "Subsets data from the CONUS1 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
+                "description": "Subsets data from the CONUS1 modeling domain and climate forcing (ParFlow fully coupled to the climate model) to perform a simulation with ParFlow-CLM.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus1_subsetting_transient.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus1_subsetting_transient.ipynb"
             },
             {
                 "name": "Subset CONUS1 and do a ParFlow Spinup",
-                "description": "Subsets all static inputs from a CONUS1 run stored in Hydrodata and performs a spinup simulation (without forcing)",
+                "description": "Subsets all static inputs from a CONUS1 run stored in HydroData and performs a spinup simulation (without forcing).",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus1_subsetting_spinup.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus1_subsetting_spinup.ipynb"
             }
@@ -21,11 +21,11 @@
     {
         "section": "parflow_conus2",
         "category": "parflow_conus2",
-        "title": "Parflow CONUS2.0",
+        "title": "ParFlow CONUS2.0",
         "list": [
             {
                 "name": "Subset CONUS2 and run ParFlow",
-                "description": "Subsets data from the CONUS2 modeling domain stored on Hydrodata as well as climate forcing to perform a simulation with ParFlow-CLM, that is ParFlow fully coupled to the climate model.",
+                "description": "Subsets data from the CONUS2 modeling domain and climate forcing (ParFlow fully coupled to the climate model) to perform a simulation with ParFlow-CLM.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/conus2_subsetting_transient.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/conus2_subsetting_transient.ipynb"
             }
@@ -56,7 +56,7 @@
             },
             {
                 "name": "Filter sites by USGS HUC boundaries",
-                "description": "Walk through of how to download a HUC boundary shapefile from the USGS and filter observations to only sites within that HUC.",
+                "description": "Walk through how to download a HUC boundary shapefile from the USGS and filter observations to only sites within that HUC.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=hf_hydrodata/point/example_shapefile.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/hf_hydrodata/point/example_shapefile.ipynb"
             },
@@ -77,7 +77,7 @@
     {
         "section": "subsettools",
         "category": "subset_tools_conus1",
-        "title": "Conus1 SubsetTools",
+        "title": "CONUS1 SubsetTools",
         "list": [
             {
                 "name": "Define a subset domain area",
@@ -86,26 +86,26 @@
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/definte_subset.ipynb"
             },
             {
-                "name": "Subset Gridded Static Inputs",
-                "description": "Two different approaches for subseting static input variables and working with the data",
+                "name": "Subset gridded static inputs",
+                "description": "Two different approaches for subseting static input variables and working with the data.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/subset_static_inputs.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/subset_static_inputs.ipynb"
             },
             {
-                "name": "Subset Gridded Forcing Data",
-                "description": "Two different approaches for subseting meteorological forcing variables and working with the data",
+                "name": "Subset gridded forcing data",
+                "description": "Two different approaches for subseting meteorological forcing variables and working with the data.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/subset_forcing_data.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/subset_forcing_data.ipynb"
             },
             {
                 "name": "Configure CLM inputs from template",
-                "description": "Configure the CLM model for a coupled ParFlow-CLM run in a subset domain",
+                "description": "Configure the CLM model for a coupled ParFlow-CLM run in a subset domain.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/configure_clm_from_template.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/configure_clm_from_template.ipynb"
             },
             {
                 "name": "Build a ParFlow run from a template",
-                "description": "How to customize a ParFlow template runscript file for running in a subset domain",
+                "description": "How to customize a ParFlow template run script file for running in a subset domain.",
                 "execlink": "https://mybinder.org/v2/gh/hydroframe/subsettools-binder/HEAD?labpath=subsettools/build_run_from_template.ipynb",
                 "codelink": "https://github.com/hydroframe/subsettools-binder/blob/main/subsettools/build_run_from_template.ipynb"
             }
